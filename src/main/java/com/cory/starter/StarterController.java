@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 public class StarterController {
 
     //https://www.baeldung.com/spring-request-param
-    @GetMapping("/home")
+    @GetMapping("/api/girlfriend")
     public Message starterMethod() {
         Message message = new Message("Cory needs a girlfriend...!!!");
         return message;
