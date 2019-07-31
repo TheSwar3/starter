@@ -9,7 +9,7 @@ public class StarterController {
     //https://www.baeldung.com/spring-request-param
     @GetMapping("/api/girlfriend")
     public Message starterMethod() {
-        Message message = new Message("Cory needs a girlfriend...!!!");
+        Message message = new Message("Corys");
         return message;
     }
 

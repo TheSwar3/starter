@@ -4,8 +4,8 @@ public class Message {
 
     private String content;
 
-    public Message(String content) {
-        this.content = content;
+    public Message(String id) {
+        this.content = id + " needs a girlfriend";
     }
 
     public String getContent() {
